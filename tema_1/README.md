@@ -2,6 +2,9 @@
 
 ![imagen_explicativa](img/imagen_explicativa.png)
 
+
+![introduccionphp_.png](img/introduccionphp_.png)
+
 # Introducción a PHP: Comentarios
 
 Los comentarios en PHP son secciones de texto que el intérprete ignora. Su propósito principal es documentar la lógica del código para humanos y facilitar el mantenimiento.
