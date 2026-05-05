@@ -3,7 +3,7 @@
 ![imagen_explicativa](img/imagen_explicativa.png)
 
 
-![introduccionphp_.png](img/introduccionphp_.png)
+![introduccionphp_tema1.png](img/introduccionphp_tema1.png)
 
 # Introducción a PHP: Comentarios
 
