@@ -1,0 +1,37 @@
+
+
+**funciones en PHP**. Está diseñado para ser claro, profesional e incluye desde los conceptos más básicos hasta el tipado de datos moderno.
+
+
+### ¿Qué incluye esta guía?
+
+**Declaración básica:** Cómo crear y ejecutar tu primera función.
+**Parámetros:** Cómo pasarle datos a la función para hacerla dinámica.
+**Retorno (return):** La forma de "sacar" un resultado de la función para guardarlo en una variable.
+**Valores por defecto:** Cómo evitar errores si falta un dato.
+**Tipado estricto:** Cómo asegurar que tu código sea más robusto definiendo tipos (int, string, etc.).
+**Funciones flecha (Arrow Functions):** La sintaxis moderna y reducida de PHP 7.4+.
+**Ámbito (Scope):** La explicación de por qué las variables de afuera no se ven adentro (y cómo solucionarlo).
+
+<?php
+    function saludar(){
+        echo "Hola, bienvenido";
+    }
+
+    saludar();
+
+    function saludarUsuario($nombre){
+        echo "Bienvendo " . $nombre;
+    }
+
+    saludarUsuario("Fontecha");
+
+    
+    function sumar($a, $b){
+        return $a + $b;
+    }
+
+    $resultado = sumar(5, 10);
+
+    echo $resultado;
+?>
