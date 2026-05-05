@@ -127,7 +127,49 @@ php
 PHP
 $usuario = ["nombre" => "Ana", "edad" => 30];
 
-1. Operadores AritméticosSe usan con valores numéricos para realizar operaciones matemáticas comunes.OperadorNombreEjemploResultado+Suma$a + $bSuma de $a$ y $b$-Resta$a - $bDiferencia entre $a$ y $b$*Multiplicación$a * $bProducto de $a$ y $b$/División$a / $bCociente de $a$ y $b$%Módulo$a % $bResto de la división**Exponenciación$a ** $b$a$ elevado a la potencia $b$2. Operadores de AsignaciónEl más básico es =, que asigna el valor de la derecha a la variable de la izquierda. Sin embargo, existen atajos:$x += $y: Equivalente a $x = $x + $y$x -= $y: Equivalente a $x = $x - $y$x *= $y: Equivalente a $x = $x * $y3. Operadores de ComparaciónEstos son fundamentales para las estructuras de control (como los if). Devuelven un valor booleano (true o false).Igualdad (==): Retorna cierto si los valores son iguales.Identidad (===): Retorna cierto si los valores son iguales y del mismo tipo.Diferente (!= o <>): Cierto si los valores no son iguales.Mayor que (>) y Menor que (<).Nave espacial (<=>): (Introducido en PHP 7) Retorna -1, 0 o 1 dependiendo de si el valor de la izquierda es menor, igual o mayor que el de la derecha.Nota rápida: Siempre que puedas, usa el comparador de identidad (===). Te ahorrará muchos dolores de cabeza con tipos de datos inesperados.4. Operadores LógicosSirven para combinar sentencias condicionales.and o &&: Cierto si tanto $A$ como $B$ son ciertos.or o ||: Cierto si al menos uno es cierto.! (Not): Invierte el valor (si es cierto, pasa a ser falso).5. Operadores de String (Cadenas)PHP tiene dos operadores diseñados específicamente para strings:Concatenación (. ): Une dos cadenas.PHP
+# Operadores en PHP
 
+### 1. Operadores Aritméticos
+Se usan con valores numéricos para realizar operaciones matemáticas comunes.
+
+
+| Operador | Nombre | Ejemplo | Resultado |
+| :---: | :--- | :--- | :--- |
+| + | Suma | $a + $b | Suma de $a y $b |
+| - | Resta | $a - $b | Diferencia entre $a y $b |
+| * | Multiplicación | $a * $b | Producto de $a y $b |
+| / | División | $a / $b | Cociente de $a y $b |
+| % | Módulo | $a % $b | Resto de la división |
+| ** | Exponenciación | $a ** $b | $a elevado a la potencia $b |
+
+### 2. Operadores de Asignación
+El más básico es =, que asigna el valor de la derecha a la variable de la izquierda. Atajos comunes:
+
+  $x += $y → $x = $x + $y
+  $x -= $y → $x = $x - $y
+  $x *= $y → $x = $x * $y
+
+### 3. Operadores de Comparación
+Devuelven un valor booleano (true o false).
+
+  **Igualdad (==)**: Cierto si los valores son iguales.
+  **Identidad (===)**: Cierto si los valores son iguales y **del mismo tipo**.
+  **Diferente (!= o <>)**: Cierto si los valores no son iguales.
+  **Mayor/Menor que (>, <)**.
+  **Nave espacial (<=>)**: Retorna -1, 0 o 1 según la comparación.
+>[!TIP]
+>Siempre que sea posible, usa el comparador de **identidad (`==`** para evitar errores de tipo.
+### 4. Operadores Lógicos
+* `ad`  `&`:Cierto si ambos son ciertos.
+* `o`  `|`:Cierto si al menos uno es cierto.
+* `!:Invierte el valor lógico.
+
+### 5. Operadores de String
+* **Concatenación (`.)*: Une dos cadenas de texto.
+
+`
+p
 $a = "Hola ";
 $b = $a . "Mundo"; // Resultado: "Hola Mundo"
+`
+``
